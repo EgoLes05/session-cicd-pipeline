@@ -46,4 +46,4 @@ jobs:
     needs: build-jar
     steps:
       - uses: actions/checkout@v4
-      - run: docker build -t calculator-app .
+      - run: docker build -t calculator-app
